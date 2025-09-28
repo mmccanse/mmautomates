@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Optional tiny baseline so it looks clean */
+html, body, #root { height: 100%; }
+body { @apply bg-white text-gray-900; }
+
