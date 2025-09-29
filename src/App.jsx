@@ -339,7 +339,7 @@ useEffect(() => {
                 </div>
                 <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
                   <div className="w-full aspect-video"></div>
-                  <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg">
+                  <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg z-10">
                     <iframe
                       src="https://www.loom.com/embed/8bf6acd9c21e4d248fba62dd8903ec42"
                       className="w-full h-full"
@@ -382,7 +382,7 @@ useEffect(() => {
                 </div>
                 <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
                   <div className="w-full aspect-video"></div>
-                  <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg">
+                  <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg z-10">
                     <iframe
                       src="https://www.loom.com/embed/aa56087b568048bea20e5693cdf62a62"
                       className="w-full h-full"
@@ -415,7 +415,7 @@ useEffect(() => {
                 </div>
                 <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
                   <div className="w-full aspect-video"></div>
-                  <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg bg-gradient-to-br from-violet-50 to-purple-50">
+                  <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg bg-gradient-to-br from-violet-50 to-purple-50 z-10">
                     <div className="flex items-center justify-center h-full">
                       <div className="text-center">
                         <div className="text-4xl mb-3 text-violet-600">📊 🔄 📈 ⚙️</div>
