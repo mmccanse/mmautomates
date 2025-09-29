@@ -318,25 +318,28 @@ useEffect(() => {
             tools and approaches
           </p>
           <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-1">
-            {/* Featured Project - n8n Job Search Workflow */}
-            <div className="relative lg:row-span-1 max-lg:row-start-1">
-              <div className="absolute inset-px rounded-lg bg-white lg:rounded-l-4xl max-lg:rounded-t-4xl" />
-              <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+            {/* n8n Job Search Workflow */}
+            <div className="relative">
+              <div className="absolute inset-px rounded-lg bg-white" />
+              <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
                 <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                   <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                    n8n Job Search Automation
+                    Low-Code AI Job Search with n8n
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    Example of tools, processes, and problem-solving that can be leveraged in n8n and Apps Script.
+                    Finds job postings, sends to OpenAI to summarize, rate match quality, and write cover letters. Saves docs to gdrive, updates Gsheet list, sends summary email. An example of how low-code workflows can perform tasks independently and automatically. n8n is a low-code automation platform allowing users to build automation integrating apps, APIs, databases, data transformation, and more.
                   </p>
                   <div className="mt-3 flex flex-wrap gap-2">
                     <Chip>n8n</Chip>
                     <Chip>Apps Script</Chip>
-                    <Chip>Automation</Chip>
+                    <Chip>OpenAI</Chip>
+                    <Chip>APIs</Chip>
                   </div>
+                  <div className="mt-4"></div>
                 </div>
-                <div className="@container relative min-h-80 w-full grow max-lg:mx-auto max-lg:max-w-sm">
-                  <div className="absolute inset-x-10 top-10 bottom-0 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-indigo-600 bg-gradient-to-br from-indigo-900 to-purple-900 shadow-2xl">
+                <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
+                  <div className="w-full aspect-video"></div>
+                  <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg">
                     <iframe
                       src="https://www.loom.com/embed/8bf6acd9c21e4d248fba62dd8903ec42"
                       className="w-full h-full"
@@ -347,22 +350,23 @@ useEffect(() => {
                   </div>
                 </div>
               </div>
-              <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5 lg:rounded-l-4xl max-lg:rounded-t-4xl" />
+              <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5" />
             </div>
 
             {/* Streamlit App - Lease Assistant */}
-            <div className="relative max-lg:row-start-2">
-              <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-t-4xl" />
-              <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
-                <div className="px-8 pt-8 sm:px-10 sm:pt-10">
-                  <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Streamlit App - Lease Assistant</p>
+            <div className="relative">
+              <div className="absolute inset-px rounded-lg bg-white" />
+              <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
+                <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
+                  <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">AI App for Lease Accounting Q&A</p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    Vector database, RAG architecture, carefully structured prompt. Unlike basic document uploads to ChatGPT, this approach ensures responses stay grounded in source material and reduces risk of inaccurate information. Can apply to company policies, procurement processes, legal guidelines, and more.
+                    AI app built with Streamlit, grounded in a vector database with RAG architecture and robust prompting. Use case for T&E policy questions, procurement processes, legal guidelines, and more.
                   </p>
                   <div className="mt-3 flex flex-wrap gap-2">
                     <Chip>Streamlit</Chip>
                     <Chip>Vector DB</Chip>
                     <Chip>RAG</Chip>
+                    <Chip>Qdrant</Chip>
                   </div>
                   <div className="mt-4">
                     <a 
@@ -374,9 +378,11 @@ useEffect(() => {
                       Try the app →
                     </a>
                   </div>
+                  <div className="mt-20"></div>
                 </div>
-                <div className="flex flex-1 items-center justify-center px-8 max-lg:pt-6 max-lg:pb-8 sm:px-10 lg:pb-2">
-                  <div className="w-full max-lg:max-w-xs aspect-video rounded-lg overflow-hidden bg-gray-100">
+                <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
+                  <div className="w-full aspect-video"></div>
+                  <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg">
                     <iframe
                       src="https://www.loom.com/embed/aa56087b568048bea20e5693cdf62a62"
                       className="w-full h-full"
@@ -387,14 +393,13 @@ useEffect(() => {
                   </div>
                 </div>
               </div>
-              <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5 max-lg:rounded-t-4xl" />
+              <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5" />
             </div>
 
-
             {/* Alteryx Demo Coming Soon */}
-            <div className="relative lg:row-span-1">
-              <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-b-4xl lg:rounded-r-4xl" />
-              <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
+            <div className="relative">
+              <div className="absolute inset-px rounded-lg bg-white" />
+              <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
                 <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                   <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
                     Alteryx demo coming soon
@@ -408,19 +413,20 @@ useEffect(() => {
                     <Chip>Automation</Chip>
                   </div>
                 </div>
-                <div className="relative min-h-80 w-full grow">
-                  <div className="absolute top-10 right-0 bottom-0 left-10 overflow-hidden rounded-tl-xl bg-gradient-to-br from-indigo-50 to-purple-50 shadow-2xl outline outline-indigo-200/50">
+                <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
+                  <div className="w-full aspect-video"></div>
+                  <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg bg-gradient-to-br from-violet-50 to-purple-50">
                     <div className="flex items-center justify-center h-full">
                       <div className="text-center">
-                        <div className="text-4xl mb-3 text-indigo-600">📊 🔄 📈 ⚙️</div>
-                        <div className="text-indigo-600 text-sm font-medium">Under Construction</div>
-                        <div className="text-indigo-500 text-xs mt-1">Demo coming soon</div>
+                        <div className="text-4xl mb-3 text-violet-600">📊 🔄 📈 ⚙️</div>
+                        <div className="text-violet-600 text-sm font-medium">Under Construction</div>
+                        <div className="text-violet-500 text-xs mt-1">Demo coming soon</div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5 max-lg:rounded-b-4xl lg:rounded-r-4xl" />
+              <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5" />
             </div>
           </div>
         </div>
@@ -457,7 +463,7 @@ useEffect(() => {
         </div>
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:text-center">
+          <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-base/7 font-semibold text-indigo-600">How I work</h2>
             <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
               Simple, outcome‑driven engagements
@@ -515,7 +521,7 @@ useEffect(() => {
         </div>
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:text-center">
+          <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-base/7 font-semibold text-indigo-600">About</h2>
             <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
               CPA<br />
@@ -572,7 +578,7 @@ useEffect(() => {
         </div>
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:text-center">
+          <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-base/7 font-semibold text-indigo-600">Contact</h2>
             <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
               Let's talk about your process
@@ -608,11 +614,6 @@ useEffect(() => {
               </div>
             </div>
             
-            <div className="mt-6 text-center">
-              <p className="text-sm text-gray-600">
-                Want to use your own domain? Point <span className="font-mono">{site.domain}</span> to your host (Netlify, Vercel, etc.) and add it as a custom domain.
-              </p>
-            </div>
           </div>
         </div>
       </section>
