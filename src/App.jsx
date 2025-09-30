@@ -402,7 +402,7 @@ useEffect(() => {
               <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
                 <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                   <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                    Alteryx demo coming soon
+                    Alteryx Data Workflow Demo
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
                     Process demo showing Alteryx methodology, accounting use cases, and how to be SOX friendly while also shaving off hours of effort.
@@ -416,13 +416,12 @@ useEffect(() => {
                 <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
                   <div className="w-full aspect-video"></div>
                   <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg bg-gradient-to-br from-violet-50 to-purple-50 z-10">
-                    <div className="flex items-center justify-center h-full">
-                      <div className="text-center">
-                        <div className="text-4xl mb-3 text-violet-600">📊 🔄 📈 ⚙️</div>
-                        <div className="text-violet-600 text-sm font-medium">Under Construction</div>
-                        <div className="text-violet-500 text-xs mt-1">Demo coming soon</div>
-                      </div>
-                    </div>
+                    <iframe
+                      src="https://www.loom.com/embed/6b037b68460d411f96b2196f48ff4ad7?sid=9a5596e4-8d17-49f2-a98b-40c5868f483c"
+                      frameBorder="0"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
                   </div>
                 </div>
               </div>
