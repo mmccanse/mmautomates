@@ -317,124 +317,124 @@ useEffect(() => {
             Simple use cases<br />
             tools and approaches
           </p>
-          <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-1">
-            {/* Alteryx Demo */}
-            <div className="relative">
-              <div className="absolute inset-px rounded-lg bg-white" />
-              <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
-                <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                  <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                    Alteryx Demo for Accountants
-                  </p>
-                  <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    Shows two Alteryx workflows used in month end close processes to share the look and feel of the tool, how outputs can be SOX compliant, and why this is a great tool for accountants. Alteryx is a low code automation tool that can do everything Excel can do, but much more. It has a quick learning curve. Users can build-in completeness and accuracy checks, and is easily auditable.
-                  </p>
-                  <div className="mt-3 flex flex-wrap gap-2">
-                    <Chip>Alteryx</Chip>
-                    <Chip>Data Workflows</Chip>
-                    <Chip>Automation</Chip>
-                  </div>
+        <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-1">
+          {/* n8n Job Search Workflow */}
+          <div className="relative">
+            <div className="absolute inset-px rounded-lg bg-white" />
+            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
+              <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
+                <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                  Low-Code AI Job Search with n8n
+                </p>
+                <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
+                  This example workflow shows how low-code tools can perform tasks independently and automatically. This example finds job postings, sends them to OpenAI to summarize, rate, and write cover letters. Then it saves docs to gdrive, updates Gsheet list, and sends a summary email. n8n is a low-code automation platform allowing users to build automation integrating apps, APIs, databases, data transformation, and more.
+                </p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  <Chip>n8n</Chip>
+                  <Chip>Apps Script</Chip>
+                  <Chip>OpenAI</Chip>
+                  <Chip>APIs</Chip>
                 </div>
-                <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
-                  <div className="w-full aspect-video"></div>
-                  <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg bg-gradient-to-br from-violet-50 to-purple-50 z-10">
-                    <iframe
-                      src="https://www.loom.com/embed/6b037b68460d411f96b2196f48ff4ad7?sid=9a5596e4-8d17-49f2-a98b-40c5868f483c"
-                      frameBorder="0"
-                      allowFullScreen
-                      allow="autoplay; fullscreen; picture-in-picture"
-                      className="w-full h-full"
-                      title="Alteryx Demo for Accountants"
-                      loading="lazy"
-                    />
-                  </div>
+                <div className="mt-4"></div>
+              </div>
+              <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
+                <div className="w-full aspect-video"></div>
+                <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg z-10">
+                  <iframe
+                    src="https://www.loom.com/embed/8bf6acd9c21e4d248fba62dd8903ec42"
+                    frameBorder="0"
+                    allowFullScreen
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    className="w-full h-full"
+                    title="n8n job search demo"
+                    loading="lazy"
+                  />
                 </div>
               </div>
-              <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5" />
             </div>
-
-            {/* n8n Job Search Workflow */}
-            <div className="relative">
-              <div className="absolute inset-px rounded-lg bg-white" />
-              <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
-                <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                  <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                    Low-Code AI Job Search with n8n
-                  </p>
-                  <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    This example workflow shows how low-code tools can perform tasks independently and automatically. This example finds job postings, sends them to OpenAI to summarize, rate, and write cover letters. Then it saves docs to gdrive, updates Gsheet list, and sends a summary email. n8n is a low-code automation platform allowing users to build automation integrating apps, APIs, databases, data transformation, and more.
-                  </p>
-                  <div className="mt-3 flex flex-wrap gap-2">
-                    <Chip>n8n</Chip>
-                    <Chip>Apps Script</Chip>
-                    <Chip>OpenAI</Chip>
-                    <Chip>APIs</Chip>
-                  </div>
-                  <div className="mt-4"></div>
-                </div>
-                <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
-                  <div className="w-full aspect-video"></div>
-                  <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg z-10">
-                    <iframe
-                      src="https://www.loom.com/embed/8bf6acd9c21e4d248fba62dd8903ec42"
-                      frameBorder="0"
-                      allowFullScreen
-                      allow="autoplay; fullscreen; picture-in-picture"
-                      className="w-full h-full"
-                      title="n8n job search demo"
-                      loading="lazy"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5" />
-            </div>
-
-            {/* Streamlit App - Lease Assistant */}
-            <div className="relative">
-              <div className="absolute inset-px rounded-lg bg-white" />
-              <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
-                <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                  <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">AI App for Lease Accounting Q&A</p>
-                  <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    AI app built with Streamlit, grounded in a vector database with RAG architecture and robust prompting. Use case for T&E policy questions, procurement processes, legal guidelines, and more.
-                  </p>
-                  <div className="mt-3 flex flex-wrap gap-2">
-                    <Chip>Streamlit</Chip>
-                    <Chip>Vector DB</Chip>
-                    <Chip>RAG</Chip>
-                    <Chip>Qdrant</Chip>
-                  </div>
-                  <div className="mt-4">
-                    <a 
-                      href="https://accounting-ai.streamlit.app/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center text-sm font-medium text-indigo-600 hover:text-indigo-500"
-                    >
-                      Try the app →
-                    </a>
-                  </div>
-                  <div className="mt-20"></div>
-                </div>
-                <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
-                  <div className="w-full aspect-video"></div>
-                  <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg z-10">
-                    <iframe
-                      src="https://www.loom.com/embed/aa56087b568048bea20e5693cdf62a62"
-                      frameBorder="0"
-                      allowFullScreen
-                      allow="autoplay; fullscreen; picture-in-picture"
-                      className="w-full h-full"
-                      title="Streamlit Lease Assistant Demo"
-                      loading="lazy"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5" />
-            </div>
+            <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5" />
           </div>
+
+          {/* Streamlit App - Lease Assistant */}
+          <div className="relative">
+            <div className="absolute inset-px rounded-lg bg-white" />
+            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
+              <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
+                <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">AI App for Lease Accounting Q&A</p>
+                <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
+                  AI app built with Streamlit, grounded in a vector database with RAG architecture and robust prompting. Use case for T&E policy questions, procurement processes, legal guidelines, and more. You can try the app right now, click the link below!
+                </p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  <Chip>Streamlit</Chip>
+                  <Chip>Vector DB</Chip>
+                  <Chip>RAG</Chip>
+                  <Chip>Qdrant</Chip>
+                </div>
+                <div className="mt-4">
+                  <a
+                    href="https://accounting-ai.streamlit.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-sm font-medium text-indigo-600 hover:text-indigo-500"
+                  >
+                    Try the app →
+                  </a>
+                </div>
+                <div className="mt-20"></div>
+              </div>
+              <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
+                <div className="w-full aspect-video"></div>
+                <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg z-10">
+                  <iframe
+                    src="https://www.loom.com/embed/aa56087b568048bea20e5693cdf62a62"
+                    frameBorder="0"
+                    allowFullScreen
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    className="w-full h-full"
+                    title="Streamlit Lease Assistant Demo"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5" />
+          </div>
+
+          {/* Alteryx Demo */}
+          <div className="relative">
+            <div className="absolute inset-px rounded-lg bg-white" />
+            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
+              <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
+                <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
+                  Alteryx Demo for Accountants
+                </p>
+                <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
+                  Alteryx is a terrific accounting tool, it can do everything Excel can do, but 100x more powerful. Excellent for any month-end close task that involves the same tasks each time. For example: download a report, clean up certain columns, combine a few other columns, perform a few calculations, create Vlookups to other reports in a 20 tab workbook. You can build this workflow in Alteryx, then each month you just hit run!
+                </p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  <Chip>Alteryx</Chip>
+                  <Chip>Data Workflows</Chip>
+                  <Chip>Automation</Chip>
+                </div>
+              </div>
+              <div className="flex flex-1 items-center justify-center px-6 max-lg:pt-6 max-lg:pb-8 sm:px-8 lg:pb-2">
+                <div className="w-full aspect-video"></div>
+                <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg bg-gradient-to-br from-violet-50 to-purple-50 z-10">
+                  <div className="flex h-full items-center justify-center">
+                    <div className="text-center">
+                      <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-100">
+                        <Cog6ToothIcon className="h-8 w-8 text-indigo-600" />
+                      </div>
+                      <p className="text-sm font-medium text-gray-900">Demo Video</p>
+                      <p className="text-xs text-gray-500">Coming Soon</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5" />
+          </div>
+        </div>
         </div>
       </section>
 
