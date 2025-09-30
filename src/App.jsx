@@ -110,28 +110,28 @@ useEffect(() => {
 
   const features = [
     {
-      name: 'Quick Win Pilot',
+      name: 'Scope',
       description:
-        '1 scoped process, 1–2 weeks. Includes discovery, build, demo, and handoff docs.',
-      icon: CloudArrowUpIcon,
-    },
-    {
-      name: 'Automation Audit',
-      description:
-        'Map current state, identify top-3 opportunities, estimate ROI, and propose a roadmap.',
+        'Small, task-level automations that streamline close processes and everyday accounting work. Large ERP transformations and full system overhauls are best left to larger FinSys teams—my focus is quick, practical wins that free up capacity right away.',
       icon: LockClosedIcon,
-    },
-    {
-      name: 'Build & Train',
-      description:
-        'Design + implementation for 1–3 processes. Includes training, SOPs, and change management support.',
-      icon: ArrowPathIcon,
     },
     {
       name: 'Measurable Outcomes',
       description:
         'Focus on time saved, error reduction, SOX-friendliness, and change management for sustainable adoption.',
       icon: FingerPrintIcon,
+    },
+    {
+      name: 'Quick Win Pilot',
+      description:
+        '1 scoped process, 1–2 weeks. Includes discovery, build, demo, and handoff docs.',
+      icon: CloudArrowUpIcon,
+    },
+    {
+      name: 'Build + Train',
+      description:
+        '1-3 scoped processes, 3-5 weeks. Includes discovery, build, training, SOPs, and change management support.',
+      icon: ArrowPathIcon,
     },
   ];
 
