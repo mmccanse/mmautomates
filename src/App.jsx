@@ -342,7 +342,10 @@ useEffect(() => {
                       src="https://www.loom.com/embed/6b037b68460d411f96b2196f48ff4ad7?sid=9a5596e4-8d17-49f2-a98b-40c5868f483c"
                       frameBorder="0"
                       allowFullScreen
+                      allow="autoplay; fullscreen; picture-in-picture"
                       className="w-full h-full"
+                      title="Alteryx Demo for Accountants"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -374,8 +377,10 @@ useEffect(() => {
                   <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg z-10">
                     <iframe
                       src="https://www.loom.com/embed/8bf6acd9c21e4d248fba62dd8903ec42"
+                      frameBorder="0"
+                      allowFullScreen
+                      allow="autoplay; fullscreen; picture-in-picture"
                       className="w-full h-full"
-                      allow="autoplay; fullscreen"
                       title="n8n job search demo"
                       loading="lazy"
                     />
@@ -417,8 +422,10 @@ useEffect(() => {
                   <div className="absolute bottom-6 left-6 right-6 sm:left-8 sm:right-8 aspect-video rounded-lg overflow-hidden border-6 border-indigo-600 shadow-lg z-10">
                     <iframe
                       src="https://www.loom.com/embed/aa56087b568048bea20e5693cdf62a62"
+                      frameBorder="0"
+                      allowFullScreen
+                      allow="autoplay; fullscreen; picture-in-picture"
                       className="w-full h-full"
-                      allow="autoplay; fullscreen"
                       title="Streamlit Lease Assistant Demo"
                       loading="lazy"
                     />
