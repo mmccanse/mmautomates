@@ -402,10 +402,10 @@ useEffect(() => {
               <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
                 <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                   <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                    Alteryx Data Workflow Demo
+                    Alteryx Demo for Accountants
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    Process demo showing Alteryx methodology, accounting use cases, and how to be SOX friendly while also shaving off hours of effort.
+                    Shows two Alteryx workflows used in month end close processes to share the look and feel of the tool, how outputs can be SOX compliant, and why this is a great tool for accountants. Alteryx is a low code automation tool that can do everything Excel can do, but much more. It has a quick learning curve. Users can build-in completeness and accuracy checks, and is easily auditable.
                   </p>
                   <div className="mt-3 flex flex-wrap gap-2">
                     <Chip>Alteryx</Chip>
@@ -533,7 +533,10 @@ useEffect(() => {
               <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
                 <div className="px-8 pt-8 pb-8 sm:px-10 sm:pt-10 sm:pb-10">
                   <p className="text-lg/8 text-gray-700 mb-6">
-                    Saved over 1,000 hours across 3 publicly traded companies by building scalable solutions using low-code tools like Alteryx, n8n, Apps Script, and Google Data Studio. My background blends deep accounting knowledge with hands-on automation and AI experience, enabling me to build workflows that increase accuracy, reduce risk, and eliminate manual processes—without requiring teams to learn how to code. I partner closely with FP&A, procurement, and IT to align automation strategy with real business needs and lead adoption efforts across cross-functional teams.
+                    I'm a CPA with 10 years of accounting experience spanning audit and operational accounting. I am a finance automation specialist who helps accounting teams reclaim their time. I have saved over 1,000 hours across 3 different publicly traded companies. My focus isn't on large ERP implementations or sweeping systems overhauls. Instead, I build small, targeted automations that solve the day-to-day pain points teams face during month-end close and routine accounting work.
+                  </p>
+                  <p className="text-lg/8 text-gray-700 mb-6">
+                    Too often, obvious and fixable inefficiencies remain manual because deadlines are relentless and teams don't have the bandwidth—or the technical training—to automate them. That's where I come in. I design, test, and implement task-level automations that save hours, reduce risk of errors, and free accountants to focus on accounting, not data wrangling.
                   </p>
                   <p className="text-base/7 text-gray-600">
                     Tools: Alteryx, n8n, Apps Script, NetSuite, FloQast, Blackline, Oracle, Google Data Studio, and more
